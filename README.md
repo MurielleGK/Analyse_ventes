@@ -1,6 +1,10 @@
 #### Projet effectué dans le cadre de ma formation chez OpenClassrooms
 
-# Analyse des Ventes d'une Librairie avec R ou Python
+# Analyse des Ventes d'une Librairie avec Python
+
+<p align="center">
+  <img src="https://github.com/MurielleGK/Analyse_ventes/blob/main/data/logo.jpg?raw=true" alt="La poule qui chante" width="300"/>
+</p>
 
 ## Contexte du Projet
 
@@ -47,20 +51,18 @@ J'ai commencé par le nettoyage, la fusion des datasets (`customers.csv`, `produ
 - J'ai analysé les préférences de genres pour identifier d’éventuelles tendances par groupe démographique.
 
 
-
-
 ## Résultats Clés
 
 - **Tendances de Vente** : J’ai pu identifier des pics et creux dans les ventes, avec une tendance globale croissante observée après application de la moyenne mobile.
-- **Corrélations Client** : J’ai constaté une corrélation significative entre l'âge des clients et la taille de leur panier moyen, indiquant que les clients plus âgés ont tendance à avoir des paniers plus importants.
+- **Corrélations Client** : J’ai constaté une corrélation significative entre l'âge des clients et la taille de leur panier moyen, indiquant que les clients plus jeunes ont tendance à avoir des paniers plus importants.
 - **Répartition des Revenus** : La courbe de Lorenz met en évidence une concentration marquée du chiffre d'affaires auprès d'un segment restreint de clients (coefficient de Gini élevé), justifiant une segmentation plus fine pour augmenter la rentabilité et l'engagement de ce groupe clé.
 
 ## Recommandations
 
-1. **Optimisation des offres par genre et catégorie de produits**
-2. **Segmentation des clients par âge et stratégies ciblées**
+1. **Optimisation des offres par tranche d'âge ( [18-30[, [30- 50[, +50) et catégorie de produits**
+2. **Segmentation des clients professionnelles et particuliers , sous segmentation des clients farticulier en fonction des tranches d'âge et stratégies ciblées**
 3. **Réduction de l’inégalité du chiffre d'affaires entre les clients**
-4. **Renforcement de l’engagement client et augmentation de la taille moyenne du panier**
+4. **Renforcement de l’engagement client, de sa fidélisation et augmentation de la taille moyenne du panier**
 5. **Analyse temporelle et préparation des saisons de vente**
 6. **Automatisation des processus et utilisation de l’analyse prédictive**
 
